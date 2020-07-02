@@ -4,7 +4,21 @@ $success: #43a047;
 $danger: #d32f2f;
 $warning: #fb8c00;
 
-.primary {color: $primary; }
-.secondary { color: $secondary; }
+$light: #e0e0e0;
+$dark: #272727;
+
+.text-primary {color: $primary; }
+.text-secondary { color: $secondary; }
+.text-success { color: $success; }
+.text-danger { color: $danger; }
+.text-warning { color: $warning; }
+.text-dark { color: $dark; }
+.text-light { color: $light; }
+
 .bg-primary{ background: $primary; }
 .bg-secondary { background: $secondary; }
+.bg-success { background: $success; }
+.bg-danger { background: $danger; }
+.bg-warning { background: $warning; }
+.bg-dark { background: $dark; }
+.bg-light { background: $light; }

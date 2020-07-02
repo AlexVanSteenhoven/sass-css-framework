@@ -82,12 +82,32 @@ select {
   }
 }
 
-.primary {
+.text-primary {
   color: #3f51b5;
 }
 
-.secondary {
+.text-secondary {
   color: #607d8b;
+}
+
+.text-success {
+  color: #43a047;
+}
+
+.text-danger {
+  color: #d32f2f;
+}
+
+.text-warning {
+  color: #fb8c00;
+}
+
+.text-dark {
+  color: #272727;
+}
+
+.text-light {
+  color: #e0e0e0;
 }
 
 .bg-primary {
@@ -96,6 +116,26 @@ select {
 
 .bg-secondary {
   background: #607d8b;
+}
+
+.bg-success {
+  background: #43a047;
+}
+
+.bg-danger {
+  background: #d32f2f;
+}
+
+.bg-warning {
+  background: #fb8c00;
+}
+
+.bg-dark {
+  background: #272727;
+}
+
+.bg-light {
+  background: #e0e0e0;
 }
 
 * {
